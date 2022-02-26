@@ -1,0 +1,39 @@
+.lp-topLp {
+  background-image: url("../../assets//img/bg-hotel-lp.png");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lp-jumbotron {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 50px auto;
+}
+
+.lp-jumbotron__headline {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lp-jumbotron__description {
+  font-size: 16px;
+  color: #fff;
+  font-weight: medium;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.lp-jumbotron__search {
+  width: 60%;
+  margin: 0px auto;
+}
+
+.search-btn {
+  background-color: #eb1c24;
+  color: #fff;
+}
