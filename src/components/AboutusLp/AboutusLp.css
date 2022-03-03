@@ -1,0 +1,58 @@
+.al-container {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.al-title {
+  text-align: center;
+  font-size: 28px;
+}
+
+.al-title__span {
+  color: #eb1c24;
+}
+
+/* first section */
+.al-first-section {
+  display: flex;
+  align-items: center;
+}
+
+.al-first__image {
+  flex: 1;
+  max-width: 100%;
+}
+
+.al-first__description {
+  flex: 1;
+  margin: 0px 100px;
+}
+
+.fd-tag {
+  color: #eb1c24;
+  font-size: 16px;
+}
+
+/* second section */
+.al-second-section {
+  display: flex;
+  align-items: center;
+}
+
+.al-second__description {
+  flex: 1;
+  margin: 0px 100px;
+}
+
+.al-second__image {
+  flex: 1;
+  max-width: 100%;
+}
+
+/* third section */
+.al-third-section {
+  margin: 0px 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}

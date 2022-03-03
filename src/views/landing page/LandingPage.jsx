@@ -4,7 +4,11 @@ import { InputGroup, FormControl, Button } from "react-bootstrap";
 import "./LandingPage.css";
 //component
 import NavbarLp from "../../components/NavbarLp/NavbarLp";
-
+import AboutusLp from "../../components/AboutusLp/AboutusLp";
+import ServiceLp from "../../components/ServiceLp/ServiceLp";
+import PriceLp from "../../components/PriceLp/PriceLp";
+import TestimonialLp from "../../components/TestimonialLp/TestimonialLp";
+import ContactLp from "../../components/ContactLp/ContactLp";
 function LandingPage() {
   return (
     <>
@@ -20,6 +24,21 @@ function LandingPage() {
             </Button>
           </InputGroup>
         </div>
+      </div>
+      <div className="lp-aboutus">
+        <AboutusLp />
+      </div>
+      <div className="lp-services">
+        <ServiceLp />
+      </div>
+      <div className="lp-price">
+        <PriceLp />
+      </div>
+      <div className="lp-testimonila">
+        <TestimonialLp />
+      </div>
+      <div className="lp-contact">
+        <ContactLp />
       </div>
     </>
   );

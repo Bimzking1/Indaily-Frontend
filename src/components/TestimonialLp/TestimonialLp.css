@@ -1,0 +1,19 @@
+.tl-container {
+  padding: 50px 0px;
+}
+
+.tl-title {
+  text-align: center;
+  font-size: 28px;
+}
+
+.tl-title__span {
+  color: #eb1c24;
+}
+
+.tl-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+  justify-content: space-between;
+}
