@@ -1,0 +1,321 @@
+/* Preview Section */
+
+.hotel-container{
+  width: 100%;
+}
+
+.preview-section {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../assets/img/hotel/hotel-view.svg');
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-inhotels-container{
+  width: 95%;
+}
+
+.hotel-atribute{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hotel-logo-container{
+  display: flex;
+  justify-content: center;
+}
+
+.hotel-logo{
+  width: 70%;
+}
+
+.hotel-name{
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  margin: 20px;
+}
+
+.hotel-description{
+  color: white;
+  width: 70%;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.hotel-media{
+  height: 50px;
+}
+
+.hotel-social-media{
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Search Section */
+
+.search-section-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.search-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.fi-search{
+  width: 50px;
+  color: #EB1C24;
+}
+
+.search-section{
+  width: 60%;
+  box-shadow: 5px 5px 10px 0px #8F959D;
+}
+
+.search-area {
+  margin: 0px auto;
+  height: 90%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.search-button{
+  background-color: red;
+  color: #EB1C24;
+  width: 150px;
+}
+
+/* Slider Section */
+
+.text-center{
+  background-color: green;
+}
+
+/* Package Section */
+
+.package-section-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.package-section-inner{
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.package-section-inner-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: center;
+  width: 35%;
+  border-radius: 10px;
+  border: 2px solid #D5DBE1;
+}
+
+.package-section-inner-left-alamat-text{
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #1E2833;
+  font-weight: 600;
+}
+
+.package-section-inner-left-map-container{
+  display: flex;
+  justify-content: center;
+}
+
+.package-section-inner-left-map{
+  width: 90%;
+}
+
+.package-section-inner-left-alamat{
+  width: 90%;
+  margin-top: 20px;
+}
+
+/* Package-Fasilitas */
+
+.package-section-inner-left-fasilitas{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3);
+}
+
+.package-section-inner-left-fasilitas-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.package-section-inner-left-fasilitas-item{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.package-section-inner-left-fasilitas-icon{
+  margin-right: 10px;
+  width: 20px;
+}
+
+/* Package-Kontak */
+
+.package-section-inner-left-kontak-text{
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #1E2833;
+  font-weight: 600;
+}
+
+.package-section-inner-left-kontak-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.package-section-inner-left-kontak-item{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.package-section-inner-left-kontak-icon{
+  margin-right: 10px;
+  width: 20px;
+}
+
+.package-section-inner-left-kontak{
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Package-Kanan */
+
+.package-section-inner-right{
+  background-color: orange;
+  width: 65%;
+  margin-left: 20px;
+  /* height: 1600px; */
+}
+
+/* Footer Section */
+
+.footer-section-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+
+.footer-section-upper{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* First Footer */
+.footer-section-first{
+  width: 52%;
+}
+
+.logo-inhotels2{
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.footer-section-first-text{
+  width: 70%;
+  font-size: 16px;
+}
+
+/* Second Footer */
+.footer-section-second{
+  width: 16%;
+  font-size: 16px;
+}
+
+.footer-section-second-features{
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Third Footer */
+.footer-section-third{
+  width: 16%;
+}
+
+.footer-section-third-features{
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Fourth Footer */
+.footer-section-fourth{
+  width: 16%;
+}
+
+.footer-section-fourth-features{
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-section-fourth-icon{
+  width: 20px;
+  text-align: center;
+}
+
+.footer-section-fourth-text{
+  margin-left: 10px;
+}
+
+/* Lower Footer */
+
+.footer-section-lower{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  color: #1E2833;
+  margin-bottom: 50px;
+}
+
+.footer-section-lower-first{
+  width: 70%;
+}
+
+.footer-section-lower-second{
+  width: 15%;
+}
+
+.footer-section-lower-third{
+  width: 15%;
+}

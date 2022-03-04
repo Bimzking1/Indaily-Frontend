@@ -1,0 +1,25 @@
+.slider-banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.carousel-banner-container{
+    width: 87%;
+}
+
+.slider-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-banner-item{
+    width: 100%;
+}
+
+.img{
+    border-radius: 10px;
+}

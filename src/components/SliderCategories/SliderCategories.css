@@ -1,0 +1,31 @@
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container{
+    width: 90%;
+}
+
+.slider-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-box-item{
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #8F959D;
+    margin-bottom: 10px;
+}
+
+.slider-box-item[type="box"]:hover {
+    border: 4px solid #EF4F55;
+}
+
+.slider-box[type="box"]:hover {
+    color: #EF4F55;
+}

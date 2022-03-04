@@ -7,6 +7,7 @@
 */
 
 import LandingPage from "./views/landing page/LandingPage";
+import Hotel from "./views/hotel/Hotel";
 
 export const APP_ROUTE = [
   {
@@ -14,6 +15,13 @@ export const APP_ROUTE = [
     path: "/",
     exact: true,
     component: LandingPage,
+    restricted: true,
+  },
+  {
+    name: "Hotel",
+    path: "/hotel",
+    exact: true,
+    component: Hotel,
     restricted: true,
   },
   // {
